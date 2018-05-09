@@ -4,4 +4,7 @@
 
     <!-- Linux -->
     <include name="lxswi/branches/master/systems/virt/linux.xml"/>
+
+    <!-- Legato -->
+    <include name="legato/branches/master.xml"/>
 </manifest>

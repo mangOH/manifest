@@ -59,8 +59,8 @@
 
     <!-- Legato: 3rd Party -->
     <project path="legato/3rdParty/plantuml" name="legato-3rdParty-plantuml" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
-    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="refs/tags/17.05.0" remote="legato-github"/>
-    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="refs/tags/17.07.0" remote="legato-github"/>
+    <project path="legato/3rdParty/jansson" name="legato-3rdParty-jansson" dest-branch="master" groups="default,legato" revision="1551cb5a06a9f4d57c474ce7a1dfb89aaff63a36" remote="legato-github"/>
+    <project path="legato/3rdParty/pjsip" name="legato-3rdParty-pjsip" dest-branch="master" groups="default,legato" revision="87908fddd33b89f255665b8ec87f06261310f21c" remote="legato-github"/>
     <project path="legato/3rdParty/tinycbor" name="legato-3rdParty-tinycbor" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
     <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 </manifest>

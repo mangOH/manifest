@@ -4,5 +4,7 @@
 
     <!-- Linux -->
     <include name="lxswi/branches/master/systems/wp85xx/linux.xml"/>
+
+    <!-- Legato -->
     <include name="legato/branches/master.xml"/>
 </manifest>

@@ -5,7 +5,7 @@
     <!-- Linux -->
     <include name="lxswi/branches/master/core.xml"/>
     <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-ref" groups="default,proprietary" revision="refs/heads/yocto-2.2-ref"/>
-    <project name="msm-3.18" path="kernel" dest-branch="mdm9x40le312-ref" revision="4c1db1149954f5cdca6d894d9aba54d4ce0fd73e"/>
+    <project name="msm-3.18" path="kernel" dest-branch="mdm9x40le312-ref" revision="refs/heads/mdm9x40le312-ref"/>
     <project name="lk" path="lk" dest-branch="mdm9x40le312-swi" revision="refs/heads/mdm9x40le312-swi" remote="legato-github">
         <linkfile src="." dest="mdm9x40/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>

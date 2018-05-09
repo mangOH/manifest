@@ -4,5 +4,7 @@
 
     <!-- Yocto -->
     <include name="lxswi/branches/yocto-1.7/core.xml"/>
+
+    <!-- Legato -->
     <include name="legato/branches/master.xml"/>
 </manifest>
