@@ -3,8 +3,8 @@
     <include name="_remotes.xml"/>
 
     <!-- Linux -->
-    <include name="lxswi/tags/LXSWI2.2-5.0/systems/ar759x/linux.xml"/>
+    <include name="lxswi/releases/LXSWI2.2-5.0/systems/ar759x/linux.xml"/>
 
     <!-- Legato -->
-    <include name="lxswi/tags/LXSWI2.2-5.0/systems/ar759x/legato.xml"/>
+    <include name="lxswi/releases/LXSWI2.2-5.0/systems/ar759x/legato.xml"/>
 </manifest>
