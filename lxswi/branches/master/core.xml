@@ -3,7 +3,7 @@
     <include name="_remotes.xml"/>
 
     <!-- Yocto -->
-    <project path="poky" name="poky" revision="e6aadcc2a04ae4e85b1cb00c5c9ce1c0f76ee871"/>
+    <project path="poky" name="poky" revision="13c465663d0d1835773fb30baba345396cf0906e"/>
     <project path="meta-openembedded" name="meta-openembedded" revision="b40116cf457b88a2db14b86fda9627fb34d56ae6"/>
 
     <!-- SWI -->
