@@ -3,8 +3,8 @@
     <include name="_remotes.xml"/>
 
     <!-- Yocto -->
-    <project path="poky" name="poky" upstream="refs/heads/rocko" revision="a57eabca57f6fc236283f0ea39f66f09aa82275a"/>
-    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/rocko" revision="dacfa2b1920e285531bec55cd2f08743390aaf57"/>
+    <project path="poky" name="poky" upstream="refs/heads/sumo" revision="refs/heads/sumo"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/sumo" revision="refs/heads/sumo"/>
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-ref" revision="refs/heads/yocto-2.2-ref">
