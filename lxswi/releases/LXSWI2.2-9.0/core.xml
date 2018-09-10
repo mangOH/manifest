@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <project path="poky" name="poky" revision="e6aadcc2a04ae4e85b1cb00c5c9ce1c0f76ee871"/>
+    <project path="meta-openembedded" name="meta-openembedded" revision="b40116cf457b88a2db14b86fda9627fb34d56ae6"/>
+
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-ref" revision="832dc10865d968b94045e438c49bd4337f3273a1">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="51f9bd7d715742b444525c1bc967c3e473a72219" clone-depth="1"/>
+</manifest>
