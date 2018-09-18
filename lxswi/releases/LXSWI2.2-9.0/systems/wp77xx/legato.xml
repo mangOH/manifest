@@ -2,6 +2,8 @@
 <manifest>
     <include name="_remotes.xml"/>
 
+    <!-- injecting fake changes -->
+
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" dest-branch="master" groups="default,legato" revision="81b91f48c255a04e996952f61887dfa056818503" remote="legato-github"/>
 

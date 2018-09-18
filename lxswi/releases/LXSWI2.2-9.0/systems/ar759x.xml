@@ -2,6 +2,8 @@
 <manifest>
     <include name="_remotes.xml"/>
 
+    <!-- injecting fake changes -->
+
     <!-- Linux -->
     <include name="lxswi/releases/LXSWI2.2-9.0/systems/ar759x/linux.xml"/>
 
