@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
     <include name="_remotes.xml"/>
-    <!-- injecting fake changes -->
+
     <!-- Yocto -->
     <project path="poky" name="poky" revision="refs/tags/LXSWI2.2-9.0"/>
     <project path="meta-openembedded" name="meta-openembedded" revision="refs/tags/LXSWI2.2-9.0"/>
@@ -10,5 +10,5 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-ref" revision="refs/tags/LXSWI2.2-9.0">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="51f9bd7d715742b444525c1bc967c3e473a72219" clone-depth="1"/>
+    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="refs/tags/LXSWI2.2-9.0" clone-depth="1"/>
 </manifest>

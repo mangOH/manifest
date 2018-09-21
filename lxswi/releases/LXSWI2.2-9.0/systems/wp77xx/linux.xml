@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <include name="_remotes.xml"/>
 
-    <!-- injecting fake changes -->
+    <include name="_remotes.xml"/>
 
     <include name="lxswi/releases/LXSWI2.2-9.0/core.xml"/>
     <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-ref" groups="default,proprietary" revision="refs/tags/LXSWI2.2-9.0"/>
@@ -13,5 +12,6 @@
     <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/tags/LXSWI2.2-9.0+wp76xx" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-master" groups="default,proprietary,prebuilt" revision="286a12aef673e9ae7430cd89360c742300345154"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-master" groups="default,proprietary,prebuilt" revision="refs/tags/LXSWI2.2-9.0"/>
+
 </manifest>

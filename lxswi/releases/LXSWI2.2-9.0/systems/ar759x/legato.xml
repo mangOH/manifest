@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <include name="_remotes.xml"/>
 
-    <!-- injecting fake changes -->
+    <include name="_remotes.xml"/>
 
     <!-- Legato: framework -->
     <project path="legato" name="legato-af" dest-branch="master" groups="default,legato" revision="81b91f48c255a04e996952f61887dfa056818503" remote="legato-github"/>
@@ -70,4 +69,5 @@
     <project path="legato/3rdParty/lighttpd" name="legato-3rdParty-lighttpd1.4" dest-branch="master" groups="default,legato" revision="653fc6722dd00c4ef5c762f7692050efe13330ec" remote="legato-github"/>
     <project path="legato/3rdParty/ima-support-tools" name="ima-support-tools" dest-branch="master" groups="default,legato" revision="831f1ab247879ff939ef090189a0398104b02dbf" remote="legato-github"/>
     <project path="legato/3rdParty/kconfig-frontends" name="legato-3rdParty-kconfig-frontends" dest-branch="master" groups="default,legato" revision="2b368eb4335864c8bd5e38c100a001a180b1d466" remote="legato-github"/>
+
 </manifest>
