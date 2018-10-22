@@ -51,6 +51,9 @@
         <linkfile src="../wp76xx" dest="legato/apps/proprietary/qmiAirVantage/bin/wp77xx"/>
     </project>
 
+    <!-- Legato: imgdiff -->
+    <project path="legato/framework/tools/imgdiff/bin" name="legato-Imgdiff-Bin" dest-branch="master" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/master"/>
+
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="master" groups="default,legato,lwm2m" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/heads/master-swi" remote="legato-github"/>
