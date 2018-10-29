@@ -11,5 +11,4 @@
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-ref" revision="refs/heads/yocto-2.5-ref">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.5" groups="default,cache,prebuilt" revision="refs/heads/2.5" clone-depth="1"/>
 </manifest>
