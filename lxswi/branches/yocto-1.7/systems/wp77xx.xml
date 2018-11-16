@@ -14,5 +14,5 @@
     <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x06le20" dest-branch="lxswi-yocto-1.7" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-1.7"/>
 
     <!-- Legato -->
-    <include name="legato/branches/master.xml"/>
+    <include name="legato/branches/18.10-release.xml"/>
 </manifest>

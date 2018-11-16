@@ -3,12 +3,12 @@
     <include name="_remotes.xml"/>
 
     <!-- Yocto -->
-    <project path="poky" name="poky" upstream="refs/heads/sumo" revision="refs/heads/sumo"/>
-    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/sumo" revision="refs/heads/sumo"/>
-    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/heads/sumo"/>
+    <project path="poky" name="poky" upstream="refs/heads/thud" revision="refs/heads/thud"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/thud" revision="refs/heads/thud"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/heads/thud"/>
 
     <!-- SWI -->
-    <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.2-ref" revision="refs/heads/yocto-2.2-ref">
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-ref" revision="refs/heads/yocto-2.5-ref">
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
 </manifest>

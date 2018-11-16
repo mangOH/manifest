@@ -13,5 +13,5 @@
     <project path="mangOH/GpioExpander" name="mangOH-GpioExpander" dest-branch="master" groups="default,mangoh" revision="refs/heads/master"/>
 
     <!-- Legato -->
-    <include name="legato/branches/master.xml"/>
+    <include name="legato/branches/18.10-release.xml"/>
 </manifest>
