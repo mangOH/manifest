@@ -6,5 +6,5 @@
     <include name="lxswi/branches/yocto-2.2/systems/wp76xx/linux.xml"/>
 
     <!-- Legato -->
-    <include name="legato/branches/18.10-release.xml"/>
+    <include name="legato/branches/master.xml"/>
 </manifest>
