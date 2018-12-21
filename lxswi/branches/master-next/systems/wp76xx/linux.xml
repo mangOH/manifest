@@ -8,7 +8,7 @@
         <linkfile src="arch/arm/mach-msm/sierra" dest="mdm9x28/modem_proc/sierra/opensource" groups="default,internal"/>
         <linkfile src="arch/arm/mach-msm/sierra" dest="lk/app/aboot/sierra"/>
     </project>
-    <project name="lk" path="lk" dest-branch="mdm9x28le20-ref" revision="refs/heads/mdm9x28le20-ref" remote="legato-github">
+    <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/heads/mdm9x28le20-swi" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
     <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-2.5"/>
