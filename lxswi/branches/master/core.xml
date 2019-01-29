@@ -5,7 +5,7 @@
     <!-- Yocto -->
     <project path="poky" name="poky" upstream="refs/heads/sumo" revision="refs/heads/sumo"/>
     <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/sumo" revision="refs/heads/sumo"/>
-    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/heads/sumo"/>
+    <project path="meta-gplv2" name="meta-gplv2" revision="refs/heads/sumo"/>
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.5-ref" revision="refs/heads/yocto-2.5-ref">
