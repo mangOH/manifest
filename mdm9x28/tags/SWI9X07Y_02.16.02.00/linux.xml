@@ -11,7 +11,7 @@
         <linkfile src="repo.mk" dest="Makefile"/>
     </project>
     <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.2-swi-wp76xx" groups="default,proprietary" revision="refs/tags/SWI9X06Y_02.15.03.00"/>
-    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="refs/tags/LXSWI2.2-3.0" clone-depth="1"/>
+    <project path="downloads" name="yocto-downloads" dest-branch="2.2" groups="default,cache,prebuilt" revision="refs/tags/SWI9X07Y_02.16.02.00" clone-depth="1"/>
     <!-- end branched core.xml projects -->
 
     <project name="msm-3.18" path="kernel" dest-branch="mdm9x28le20-swi-wp76xx" revision="refs/tags/SWI9X06Y_02.16.02.00">
@@ -21,5 +21,5 @@
     <project name="lk" path="lk" dest-branch="mdm9x28le20-swi" revision="refs/tags/LXSWI2.2-5.0+wp76xx" remote="legato-github">
         <linkfile src="." dest="mdm9x28/apps_proc/bootable/bootloader/lk" groups="default,internal"/>
     </project>
-    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.16.01.00"/>
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="master" groups="default,proprietary,prebuilt" revision="refs/tags/SWI9X07Y_02.16.02.00" clone-depth="1"/>
 </manifest>
