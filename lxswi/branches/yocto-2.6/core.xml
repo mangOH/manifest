@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <!-- Yocto -->
+    <project path="poky" name="poky" upstream="refs/heads/thud" revision="refs/heads/thud"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/thud" revision="refs/heads/thud"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" revision="refs/heads/thud"/>
+
+    <!-- SWI -->
+    <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.6-ref" revision="refs/heads/yocto-2.6-ref">
+        <linkfile src="repo.mk" dest="Makefile"/>
+    </project>
+</manifest>
