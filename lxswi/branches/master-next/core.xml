@@ -4,8 +4,8 @@
 
     <!-- Yocto -->
     <project path="poky" name="poky" upstream="refs/heads/warrior" revision="refs/heads/warrior"/>
-    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/master" revision="refs/heads/master"/>
-    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/master" revision="refs/heads/master"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/warrior" revision="refs/heads/warrior"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/warrior" revision="refs/heads/warrior"/>
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.6-ref" revision="refs/heads/yocto-2.6-ref">
