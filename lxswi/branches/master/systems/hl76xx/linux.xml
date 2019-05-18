@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <include name="lxswi/branches/master/systems/hl76xx/lxswi.xml"/>
+
+    <project path="meta-swi-extras/meta-swi-mdm9x28-bin/files" name="meta-swi-bin-files-mdm9x28le20" dest-branch="lxswi-yocto-2.5" groups="default,proprietary,prebuilt" revision="refs/heads/lxswi-yocto-2.5"/>
+    <project path="meta-swi-hl" name="meta-swi-hl" dest-branch="master" groups="default" revisions="refs/heads/master"/>
+    <project path="meta-swi-hl-extras" name="meta-swi-hl-extras" dest-branch="master" groups="default" revisions="refs/heads/master"/>
+</manifest>
