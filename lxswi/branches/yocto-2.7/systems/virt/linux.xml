@@ -2,6 +2,5 @@
 <manifest>
     <include name="_remotes.xml"/>
 
-    <!-- Linux -->
-    <include name="lxswi/branches/yocto-2.7/core.xml"/>
+    <include name="lxswi/branches/yocto-2.7/systems/virt/lxswi.xml"/>
 </manifest>
