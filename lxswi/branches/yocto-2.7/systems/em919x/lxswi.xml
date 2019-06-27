@@ -4,4 +4,5 @@
 
     <include name="lxswi/branches/yocto-2.7/core.xml"/>
     <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-2.7-ref" groups="default,proprietary" revision="refs/heads/yocto-2.7-ref"/>
+    <project path="kernel" name="external-Privcaf-External-Private_le-Kernel-Msm-4.14" dest-branch="sdx55le10-ref" revision="refs/heads/sdx55le10-ref"/>
 </manifest>

@@ -3,4 +3,7 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/branches/yocto-2.7/systems/em919x/lxswi.xml"/>
+
+    <project path="meta-swi-em" name="meta-swi-em" dest-branch="master" groups="default" revisions="refs/heads/master"/>
+    <project path="meta-swi-em-extras" name="meta-swi-em-extras" dest-branch="master" groups="default" revisions="refs/heads/master"/>
 </manifest>
