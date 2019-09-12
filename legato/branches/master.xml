@@ -33,6 +33,8 @@
     <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
+    <!-- Legato: Shared-memory dumps for QEmu -->
+
     <!-- Legato: proprietary apps [nogithub] -->
     <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="master" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/master">
         <linkfile src="../wp85" dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
@@ -80,4 +82,5 @@
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v11.1.0" remote="legato-github"/>
     <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="5bdc24262c76ccdd3ea2ebd45c9859dde281ea46" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
+    <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="refs/heads/master" remote="legato-github"/>
 </manifest>
