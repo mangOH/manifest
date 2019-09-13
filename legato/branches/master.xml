@@ -33,8 +33,6 @@
     <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
-    <!-- Legato: Shared-memory dumps for QEmu -->
-
     <!-- Legato: proprietary apps [nogithub] -->
     <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="master" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/master">
         <linkfile src="../wp85" dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
@@ -55,7 +53,7 @@
         <linkfile src="../wp76xx" dest="legato/apps/proprietary/qmiAirVantage/bin/wp77xx"/>
     </project>
 
-    <!-- Legato: imgdiff -->
+    <!-- Legato: imgdiff [nogithub] -->
     <project path="legato/framework/tools/imgdiff/bin" name="legato-Imgdiff-Bin" dest-branch="master" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/master"/>
 
     <!-- LWM2M Core -->
