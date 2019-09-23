@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="legato" alias="origin" fetch="ssh://gerrit.legato.io:29418" pushurl="ssh://gerrit.legato.io:29418" review="https://gerrit.legato.io/"/>
+    <remote name="legato" alias="origin" fetch="ssh://gerrit.legato.io:29418" pushurl="ssh://master.gerrit.legato.io:29418" review="https://gerrit.legato.io/"/>
     <remote name="legato-github" fetch="https://github.com/legatoproject" review="https://gerrit.legato.io/"/>
     <remote name="mangoh-github" fetch="https://github.com/mangOH"/>
 

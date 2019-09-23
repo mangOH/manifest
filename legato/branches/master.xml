@@ -11,7 +11,9 @@
     <project path="legato/platformAdaptor/simu" name="legato-PlatformAdaptor-Simu" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/fwupdate" name="legato-PlatformAdaptor-FwUpdate" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/dcs/linux" name="legato-PlatformAdaptor-DcsLinux" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/platformAdaptor/dcs/lwip" name="legato-PlatformAdaptor-DcsLwip" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
     <project path="legato/platformAdaptor/wdog/linux" name="legato-PlatformAdaptor-WdogLinux" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
+    <project path="legato/platformAdaptor/trustZone/swi" name="legato-PlatformAdaptor-TzSwi" dest-branch="master" groups="default,legato" revision="refs/heads/master" remote="legato-github"/>
 
     <!-- Legato: PA QMI (binaries) [proprietary] -->
     <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="master" groups="default,legato,external,proprietary" revision="refs/heads/master" remote="legato-github">
@@ -51,7 +53,7 @@
         <linkfile src="../wp76xx" dest="legato/apps/proprietary/qmiAirVantage/bin/wp77xx"/>
     </project>
 
-    <!-- Legato: imgdiff -->
+    <!-- Legato: imgdiff [nogithub] -->
     <project path="legato/framework/tools/imgdiff/bin" name="legato-Imgdiff-Bin" dest-branch="master" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/master"/>
 
     <!-- LWM2M Core -->
@@ -78,4 +80,5 @@
     <project path="legato/3rdParty/Kconfiglib" name="legato-3rdParty-Kconfiglib" dest-branch="master" groups="default,legato" revision="refs/tags/v11.1.0" remote="legato-github"/>
     <project path="legato/3rdParty/libiio" name="legato-3rdParty-libiio" dest-branch="master" groups="default,legato" revision="5bdc24262c76ccdd3ea2ebd45c9859dde281ea46" remote="legato-github"/>
     <project path="legato/3rdParty/lwftp" name="legato-3rdParty-lwftp" dest-branch="master-swi" groups="default,legato" revision="refs/heads/master-swi" remote="legato-github"/>
+    <project path="legato/3rdParty/qemu" name="qemu" dest-branch="master" groups="notdefault,legato,qemu" revision="refs/heads/master" remote="legato-github"/>
 </manifest>
