@@ -4,7 +4,7 @@
 
     <project path="meta-mangoh" name="meta-mangoh" revision="refs/heads/master" remote="mangoh-github"/>
 
-    <!-- Yocto -->
+    <!-- Yocto - Based on WP77 Release 12 -->
     <include name="mdm9x06/tags/SWI9X06Y_02.32.02.00/linux.xml"/>
 
     <!-- Legato -->
