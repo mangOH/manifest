@@ -9,7 +9,4 @@
 
     <!-- Legato -->
     <include name="legato/releases/19.07.0/legato.xml"/>
-
-    <!-- Product -->
-    <product name="mangOH wp76xx"/>
 </manifest>
