@@ -2,7 +2,7 @@
 <manifest>
     <include name="_remotes.xml"/>
 
-    <project path="meta-mangoh" name="meta-mangoh" revision="refs/heads/master" remote="mangoh-github"/>
+    <project path="meta-mangoh" name="meta-mangoh" revision="refs/tags/v0.2.3" remote="mangoh-github"/>
 
     <!-- Yocto -->
     <include name="mdm9x06/tags/SWI9X06Y_02.32.02.00/linux.xml"/>
