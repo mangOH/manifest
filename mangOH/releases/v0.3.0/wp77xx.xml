@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <include name="_remotes.xml"/>
+
+    <project path="meta-mangoh" name="meta-mangoh" revision="refs/tags/v0.3.0" remote="mangoh-github"/>
+
+    <!-- Yocto - Based on WP77 Release 12 -->
+    <include name="mdm9x06/tags/SWI9X06Y_02.32.02.00/linux.xml"/>
+
+    <!-- Legato -->
+    <include name="legato/tags/19.10.0/legato.xml"/>
+</manifest>
