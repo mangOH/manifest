@@ -3,9 +3,9 @@
     <include name="_remotes.xml"/>
 
     <!-- Yocto -->
-    <project path="poky" name="poky" upstream="refs/heads/warrior" revision="refs/heads/warrior"/>
-    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/warrior" revision="refs/heads/warrior"/>
-    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/warrior" revision="refs/heads/warrior"/>
+    <project path="poky" name="poky" upstream="refs/heads/zeus" revision="refs/heads/zeus"/>
+    <project path="meta-openembedded" name="meta-openembedded" upstream="refs/heads/zeus" revision="refs/heads/zeus"/>
+    <project path="meta-gplv2" name="external-Yocto-Meta-Gplv2" upstream="refs/heads/zeus" revision="refs/heads/zeus"/>
 
     <!-- SWI -->
     <project path="meta-swi" name="meta-swi" dest-branch="yocto-2.7-ref" revision="refs/heads/yocto-2.7-ref">
