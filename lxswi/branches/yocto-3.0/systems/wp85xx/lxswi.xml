@@ -2,7 +2,7 @@
 <manifest>
     <include name="_remotes.xml"/>
 
-    <include name="lxswi/branches/master-next/core.xml"/>
+    <include name="lxswi/branches/yocto-3.0/core.xml"/>
     <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/heads/yocto-3.0-ref"/>
     <project path="kernel" name="linux-yocto-3.14" dest-branch="standard/swi-mdm9x15-yocto-1.7-ref" revision="refs/heads/standard/swi-mdm9x15-yocto-1.7-ref"/>
     <project path="kernel-meta" name="linux-yocto-3.14" dest-branch="meta-yocto-1.7-ref" revision="refs/heads/meta-yocto-1.7-ref"/>
