@@ -33,15 +33,15 @@
 
     <!-- Legato: PA QMI (binaries) -->
     <project path="legato/platformAdaptor/qmi/bin/ar7" name="legato-PlatformAdaptor-QmiBin-ar7" dest-branch="master" groups="default,legato,external" revision="3807e18247a90b8d2f118b4b954f1f912b430ae3" remote="legato-github">
-        <linkfile src="../ar7" dest="legato/platformAdaptor/qmi/bin/ar86"/>
+        <linkfile src="." dest="legato/platformAdaptor/qmi/bin/ar86"/>
     </project>
     <project path="legato/platformAdaptor/qmi/bin/ar758x" name="legato-PlatformAdaptor-QmiBin-ar758x" dest-branch="master" groups="default,legato,external" revision="ce376617ece4f775e0d30eb80299aa2a2bcf66fe" remote="legato-github"/>
     <project path="legato/platformAdaptor/qmi/bin/ar759x" name="legato-PlatformAdaptor-QmiBin-ar759x" dest-branch="master" groups="default,legato,external" revision="a311c47c795773ab98388e6ff317c5bb2e71ae9e" remote="legato-github"/>
     <project path="legato/platformAdaptor/qmi/bin/wp85" name="legato-PlatformAdaptor-QmiBin-wp85" dest-branch="master" groups="default,legato,external" revision="24ae6bae276ba2deee13aabac4f3f8670f9bb3f5" remote="legato-github">
-        <linkfile src="../wp85" dest="legato/platformAdaptor/qmi/bin/wp750x"/>
+        <linkfile src="." dest="legato/platformAdaptor/qmi/bin/wp750x"/>
     </project>
     <project path="legato/platformAdaptor/qmi/bin/wp76xx" name="legato-PlatformAdaptor-QmiBin-wp76xx" dest-branch="master" groups="default,legato,external" revision="9bf5c7ead8ef0be67b3f3bbe44d520d964d24bc7" remote="legato-github">
-        <linkfile src="../wp76xx" dest="legato/platformAdaptor/qmi/bin/wp77xx"/>
+        <linkfile src="." dest="legato/platformAdaptor/qmi/bin/wp77xx"/>
     </project>
 
     <!-- Legato: modules -->
@@ -51,16 +51,16 @@
 
     <!-- Legato: proprietary apps [nogithub] -->
     <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="master" groups="default,legato,external,nogithub" revision="6efdd7d543065232a26b6e50df9717ab32dc7825">
-        <linkfile src="../wp85" dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
+        <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
     </project>
     <project path="legato/apps/proprietary/atQmiLinker/bin/wp76xx" name="legato-Apps-AtQmiLinkerBin-wp76xx" dest-branch="master" groups="default,legato,external,nogithub" revision="72e7f21206a0f7a6471ecf709c539dbad53c2a57">
-        <linkfile src="../wp76xx" dest="legato/apps/proprietary/atQmiLinker/bin/wp77xx"/>
+        <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp77xx"/>
     </project>
     <project path="legato/apps/proprietary/atAirVantage/bin/wp85" name="legato-Apps-AtAirVantageBin-wp85" dest-branch="master" groups="default,legato,external,nogithub" revision="02ccf86175bce8b83a1c92fbd8851f339a4b835b">
-        <linkfile src="../wp85" dest="legato/apps/proprietary/atAirVantage/bin/wp750x"/>
+        <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp750x"/>
     </project>
     <project path="legato/apps/proprietary/atAirVantage/bin/wp76xx" name="legato-Apps-AtAirVantageBin-wp76xx" dest-branch="master" groups="default,legato,external,nogithub" revision="931d53767a17e04405164c2531a0628d441fe5bc">
-        <linkfile src="../wp76xx" dest="legato/apps/proprietary/atAirVantage/bin/wp77xx"/>
+        <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp77xx"/>
     </project>
 
     <!-- LWM2M Core -->
