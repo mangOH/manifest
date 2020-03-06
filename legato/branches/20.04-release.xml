@@ -33,11 +33,34 @@
     <project path="legato/modules/Raspi" name="legato-Raspi" dest-branch="20.04-release" groups="default,legato" revision="refs/heads/20.04-release" remote="legato-github"/>
     <project path="legato/modules/Dualsys" name="legato-Dualsys" dest-branch="20.04-release" groups="default,legato" revision="refs/heads/20.04-release" remote="legato-github"/>
 
+    <!-- Legato: proprietary apps [nogithub] -->
+    <project path="legato/apps/proprietary/atQmiLinker/bin/wp85" name="legato-Apps-AtQmiLinkerBin-wp85" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release">
+        <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp750x"/>
+    </project>
+    <project path="legato/apps/proprietary/atQmiLinker/bin/wp76xx" name="legato-Apps-AtQmiLinkerBin-wp76xx" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release">
+        <linkfile src="." dest="legato/apps/proprietary/atQmiLinker/bin/wp77xx"/>
+    </project>
+    <project path="legato/apps/proprietary/atAirVantage/bin/wp85" name="legato-Apps-AtAirVantageBin-wp85" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release">
+        <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp750x"/>
+    </project>
+    <project path="legato/apps/proprietary/atAirVantage/bin/wp76xx" name="legato-Apps-AtAirVantageBin-wp76xx" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release">
+        <linkfile src="." dest="legato/apps/proprietary/atAirVantage/bin/wp77xx"/>
+    </project>
+    <project path="legato/apps/proprietary/qmiAirVantage/bin/wp85" name="legato-Apps-QmiAirVantageBin-wp85" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release">
+        <linkfile src="." dest="legato/apps/proprietary/qmiAirVantage/bin/wp750x"/>
+    </project>
+    <project path="legato/apps/proprietary/qmiAirVantage/bin/wp76xx" name="legato-Apps-QmiAirVantageBin-wp76xx" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release">
+        <linkfile src="." dest="legato/apps/proprietary/qmiAirVantage/bin/wp77xx"/>
+    </project>
+
+    <!-- Legato: imgdiff [nogithub] -->
+    <project path="legato/framework/tools/imgdiff/bin" name="legato-Imgdiff-Bin" dest-branch="20.04-release" groups="default,legato,external,nogithub,proprietary" revision="refs/heads/20.04-release"/>
+
     <!-- LWM2M Core -->
     <project path="legato/3rdParty/Lwm2mCore" name="lwm2mCore" dest-branch="master" groups="default,legato,lwm2m" revision="67d2a36f82eb9dbb7adfde858a5493db0727125b" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/wakaama" name="wakaama" dest-branch="master-swi" groups="default,legato,lwm2m" revision="19cc4c568e9b61e38c8dfbc241a7e9761b1f19e0" remote="legato-github"/>
     <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinydtls" name="tinydtls" dest-branch="master-swi" groups="default,legato,lwm2m" revision="848186ac1834b1ffee0ad1fd4a2f48344a4d6bb6" remote="legato-github"/>
-    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/19.04.0" remote="legato-github"/>
+    <project path="legato/3rdParty/Lwm2mCore/3rdParty/tinyhttp" name="legato-3rdParty-tinyhttp" dest-branch="master-swi" groups="default,legato,lwm2m" revision="refs/tags/19.04.0"/>
 
     <!-- AirVantage LWM2M Client -->
     <project path="legato/apps/platformServices/airVantageConnector" name="legato-Service-AirVantageConnector" dest-branch="20.04-release" groups="default,legato,lwm2m" revision="refs/heads/20.04-release" remote="legato-github"/>
