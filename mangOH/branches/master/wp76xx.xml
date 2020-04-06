@@ -8,5 +8,5 @@
     <include name="mdm9x28/tags/SWI9X07Y_02.28.03.05/linux.xml"/>
 
     <!-- Legato -->
-    <include name="legato/releases/19.10.0/legato.xml"/>
+    <include name="legato/releases/19.11.1/legato.xml"/>
 </manifest>
