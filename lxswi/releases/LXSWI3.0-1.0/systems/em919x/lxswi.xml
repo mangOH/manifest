@@ -3,5 +3,5 @@
     <include name="_remotes.xml"/>
 
     <include name="lxswi/releases/LXSWI3.0-1.0/core.xml"/>
-    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="5676a2f29f8d77871b649f596622ecab00eb47f7"/>
+    <project path="meta-swi-extras" name="meta-swi-extras" dest-branch="yocto-3.0-ref" groups="default,proprietary" revision="refs/tags/LXSWI3.0-1.0"/>
 </manifest>
